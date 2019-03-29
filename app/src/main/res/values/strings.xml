@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Eval1By00013812</string>
+    <string name="tv_cont_prod">Contador de productos</string>
+    <string name="numeral">#</string>
+    <string name="producto_1">Producto 1</string>
+    <string name="producto_7">Producto 7</string>
+    <string name="producto_8">Producto 8</string>
+    <string name="producto_9">Producto 9</string>
+    <string name="producto_2">Producto 2</string>
+    <string name="producto_3">Producto 3</string>
+    <string name="producto_4">Producto 4</string>
+    <string name="producto_5">Producto 5</string>
+    <string name="producto_6">Producto 6</string>
+    <string name="text_usuario">Usuario</string>
+    <string name="text_enviar">enviar</string>
+</resources>
