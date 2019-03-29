@@ -28,6 +28,7 @@
             >
 
             <LinearLayout
+                android:id="@+id/ll_prod1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/margin_short"
@@ -45,6 +46,7 @@
                     android:textColor="@color/white"/>
 
                 <TextView
+                    android:id="@+id/tv_cont1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -56,6 +58,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/ll_prod2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="@dimen/margin_short"
@@ -73,6 +76,7 @@
                     android:textColor="@color/white"/>
 
                 <TextView
+                    android:id="@+id/tv_cont2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -84,6 +88,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/ll_prod3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="@dimen/margin_short"
@@ -101,6 +106,7 @@
                     android:textColor="@color/white"/>
 
                 <TextView
+                    android:id="@+id/tv_cont3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -120,6 +126,7 @@
             >
 
             <LinearLayout
+                android:id="@+id/ll_prod4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/margin_short"
@@ -137,6 +144,7 @@
                     android:textColor="@color/white"/>
 
                 <TextView
+                    android:id="@+id/tv_cont4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -148,6 +156,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/ll_prod5"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="@dimen/margin_short"
@@ -165,6 +174,7 @@
                     android:textColor="@color/white"/>
 
                 <TextView
+                    android:id="@+id/tv_cont5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -176,6 +186,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/ll_prod6"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="@dimen/margin_short"
@@ -193,6 +204,7 @@
                     android:textColor="@color/white"/>
 
                 <TextView
+                    android:id="@+id/tv_cont6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -212,6 +224,7 @@
             >
 
             <LinearLayout
+                android:id="@+id/ll_prod7"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="@dimen/margin_short"
@@ -223,19 +236,25 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:textSize="@dimen/text_size_boton"
+                    android:layout_margin="@dimen/margin_short"
                     android:text="@string/producto_7"
                     android:textColor="@color/white"/>
 
                 <TextView
+                    android:id="@+id/tv_cont7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:layout_margin="@dimen/margin_short"
+                    android:textSize="@dimen/text_size_medium"
                     android:text="@string/numeral"
                     android:textColor="@color/white"/>
 
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/ll_prod8"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="@dimen/margin_short"
@@ -247,19 +266,25 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:textSize="@dimen/text_size_boton"
+                    android:layout_margin="@dimen/margin_short"
                     android:text="@string/producto_8"
                     android:textColor="@color/white"/>
 
                 <TextView
+                    android:id="@+id/tv_cont8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:layout_margin="@dimen/margin_short"
+                    android:textSize="@dimen/text_size_medium"
                     android:text="@string/numeral"
                     android:textColor="@color/white"/>
 
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/ll_prod9"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="@dimen/margin_short"
@@ -271,13 +296,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:layout_margin="@dimen/margin_short"
+                    android:textSize="@dimen/text_size_boton"
                     android:text="@string/producto_9"
                     android:textColor="@color/white"/>
 
                 <TextView
+                    android:id="@+id/tv_cont9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:textSize="@dimen/text_size_medium"
+                    android:layout_margin="@dimen/margin_short"
                     android:text="@string/numeral"
                     android:textColor="@color/white"/>
 
@@ -286,7 +316,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_semibig"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -294,21 +324,24 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_short"
+                android:textSize="@dimen/text_size_maso"
                 android:text="@string/text_usuario"/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Escribe el usuario aqui"/>
+                android:hint="@string/hint_escribe_el_usuario_aqui"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/text_usuario"/>
+                android:text="@string/tex_correo_electronico"
+                android:textSize="@dimen/text_size_maso"/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Escribe el usuario aqui"/>
+                android:hint="@string/hint_escribe_el_correo_aqui"/>
 
             <Button
                 android:layout_width="wrap_content"

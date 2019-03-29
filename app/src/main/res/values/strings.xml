@@ -13,4 +13,7 @@
     <string name="producto_6">Producto 6</string>
     <string name="text_usuario">Usuario</string>
     <string name="text_enviar">enviar</string>
+    <string name="tex_correo_electronico">Correo Electronico</string>
+    <string name="hint_escribe_el_usuario_aqui">Escribe el usuario aqui</string>
+    <string name="hint_escribe_el_correo_aqui">Escribe el correo aqui</string>
 </resources>

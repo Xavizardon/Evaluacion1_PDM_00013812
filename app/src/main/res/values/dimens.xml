@@ -4,4 +4,6 @@
     <dimen name="margin_medium">16dp</dimen>
     <dimen name="margin_short">8dp</dimen>
     <dimen name="text_size_boton">18sp</dimen>
+    <dimen name="margin_semibig">40dp</dimen>
+    <dimen name="text_size_maso">20sp</dimen>
 </resources>
