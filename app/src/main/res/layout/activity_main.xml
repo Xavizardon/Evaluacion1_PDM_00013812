@@ -329,9 +329,12 @@
                 android:text="@string/text_usuario"/>
 
             <EditText
+                android:id="@+id/et_usuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/hint_escribe_el_usuario_aqui"/>
+                android:hint="@string/hint_escribe_el_usuario_aqui"
+                />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -339,11 +342,13 @@
                 android:textSize="@dimen/text_size_maso"/>
 
             <EditText
+                android:id="@+id/et_mail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/hint_escribe_el_correo_aqui"/>
 
             <Button
+                android:id="@+id/btn_enviar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
